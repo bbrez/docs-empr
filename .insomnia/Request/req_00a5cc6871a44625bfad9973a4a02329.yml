@@ -1,0 +1,29 @@
+_id: req_00a5cc6871a44625bfad9973a4a02329
+type: Request
+parentId: wrk_5e514548e0bd4f8c8438013fc1d2a443
+modified: 1682275035435
+created: 1679015924188
+url: http://localhost:3000/users/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "bbrezolin@hotmail.com",
+    	"password": "batata123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682099092887.2969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

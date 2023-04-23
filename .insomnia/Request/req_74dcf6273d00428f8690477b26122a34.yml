@@ -1,0 +1,35 @@
+_id: req_74dcf6273d00428f8690477b26122a34
+type: Request
+parentId: wrk_5e514548e0bd4f8c8438013fc1d2a443
+modified: 1682274721331
+created: 1682274703079
+url: http://localhost:3000/trips/1/area
+name: Set trip meeting
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"center": {
+    		"lat": 0,
+    		"long": 0
+    	},
+    	"time": "2023-04-24T14:00:00.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJmaXJzdE5hbWUiOiJCcnVubyIsImxhc3ROYW1lIjoiQnJlem9saW4iLCJlbWFpbCI6ImJicmV6b2xpbkBob3RtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFRPUllTTTd6TWNjcWQvMzZZcWZEQS5qd0RhMUQ4U29YUVJ1WkFTV3VWTVdIMk90LkwxWDlxIiwicm9sZSI6IkFkbWluIiwiY3VycmVudExvY2F0aW9uIjpudWxsLCJjcmVhdGVkQXQiOiIyMDIzLTA0LTIxVDE0OjIwOjUzLjc5OFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA0LTIxVDE0OjIwOjUzLjc5OFoifSwiaWF0IjoxNjgyMDk5Mzc4fQ.EtQJAAAaH5pQe5eXbwJ3AIk9pNcnPg2Oy_czExsfvo4
+  prefix: Bearer
+metaSortKey: -1682099040038.0942
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

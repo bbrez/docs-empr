@@ -1,0 +1,34 @@
+_id: req_25ad8c556aaf4a31a19cf5ad3c1de8b3
+type: Request
+parentId: wrk_5e514548e0bd4f8c8438013fc1d2a443
+modified: 1682175576155
+created: 1682096892542
+url: http://localhost:3000/trips
+name: Create Trip
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Compras em NY",
+    	"place": "5th avenue, NYC",
+    	"startDate": "2023-04-24T11:00:00.000Z",
+    	"endDate": "2023-04-24T14:00:00.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJmaXJzdE5hbWUiOiJCcnVubyIsImxhc3ROYW1lIjoiQnJlem9saW4iLCJlbWFpbCI6ImJicmV6b2xpbkBob3RtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFRPUllTTTd6TWNjcWQvMzZZcWZEQS5qd0RhMUQ4U29YUVJ1WkFTV3VWTVdIMk90LkwxWDlxIiwicm9sZSI6IkFkbWluIiwiY3VycmVudExvY2F0aW9uIjpudWxsLCJjcmVhdGVkQXQiOiIyMDIzLTA0LTIxVDE0OjIwOjUzLjc5OFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA0LTIxVDE0OjIwOjUzLjc5OFoifSwiaWF0IjoxNjgyMDk5Mzc4fQ.EtQJAAAaH5pQe5eXbwJ3AIk9pNcnPg2Oy_czExsfvo4
+  prefix: Bearer
+metaSortKey: -1682099065610.289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

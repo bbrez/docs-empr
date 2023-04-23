@@ -1,0 +1,31 @@
+_id: req_72fab8305e78411bab2693bc57cd81d8
+type: Request
+parentId: wrk_5e514548e0bd4f8c8438013fc1d2a443
+modified: 1682174235025
+created: 1682174126007
+url: localhost:3000/users
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "john@doe.com",
+    	"password": "Password123!",
+    	"firstName": "John",
+    	"lastName": "Doe"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682099147441.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
